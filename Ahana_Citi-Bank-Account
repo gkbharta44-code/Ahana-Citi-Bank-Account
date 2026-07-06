@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Transfer Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            max-width: 600px;
+            width: 100%;
+        }
+        h2 {
+            color: #003366;
+            border-bottom: 2px solid #003366;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        .currency-badge {
+            display: inline-block;
+            background-color: #e1f0ff;
+            color: #003366;
+            font-weight: bold;
+            padding: 5px 15px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }
+        .row {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 0;
+            border-bottom: 1px solid #eeeeee;
+        }
+        .row:last-child {
+            border-bottom: none;
+        }
+        .label {
+            font-weight: bold;
+            color: #555555;
+            flex: 1;
+        }
+        .value {
+            color: #222222;
+            flex: 2;
+            text-align: right;
+            word-break: break-word;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Bank Transfer Details</h2>
+    <div class="currency-badge">USD - Singapore</div>
+
+    <div class="row">
+        <div class="label">Beneficiary Name</div>
+        <div class="value">AHANA DERIVATIVES AND INVESTMENTS FZCO</div>
+    </div>
+    <div class="row">
+        <div class="label">Account Number</div>
+        <div class="value">87990735704</div>
+    </div>
+    <div class="row">
+        <div class="label">Bank Name</div>
+        <div class="value">Citibank N.A., Singapore Branch</div>
+    </div>
+    <div class="row">
+        <div class="label">Bank Address</div>
+        <div class="value">3 Changi Business Park Crescent, #07-00 Singapore 486026</div>
+    </div>
+    <div class="row">
+        <div class="label">Bank Code</div>
+        <div class="value">7214</div>
+    </div>
+    <div class="row">
+        <div class="label">Branch Code</div>
+        <div class="value">001</div>
+    </div>
+    <div class="row">
+        <div class="label">SWIFT Code</div>
+        <div class="value">CITISGSGXXX</div>
+    </div>
+</div>
+
+</body>
+</html>
